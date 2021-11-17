@@ -8,3 +8,11 @@
 
 **Link to work:** [My personal templates](https://covers.philippebernard.dev/) and the corresponding [repository](https://github.com/phbernard/philippe-personal-image-engine)
 
+
+### Day 1: November 17, 2021
+
+**Today's Progress**: Resoc can now produce templates for Twitter banners.
+
+**Thoughts:** This forced me to refactor some code, which I usually enjoy.
+
+**Link to work:** I updated the [image dev kit](https://www.npmjs.com/package/itdk)
