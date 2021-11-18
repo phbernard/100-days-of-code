@@ -16,3 +16,12 @@
 **Thoughts:** This forced me to refactor some code, which I usually enjoy.
 
 **Link to work:** I updated the [image dev kit](https://www.npmjs.com/package/itdk)
+
+
+### Day 2: November 18, 2021
+
+**Today's Progress**: I created my personal Twitter banner. With progress bar and all.
+
+**Thoughts:** That was fun! And I like the result.
+
+**Link to work:** It's in my [personal image engine](https://github.com/phbernard/philippe-personal-image-engine)
