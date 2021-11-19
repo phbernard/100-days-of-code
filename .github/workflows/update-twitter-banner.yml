@@ -11,21 +11,11 @@ jobs:
         uses: actions/setup-node@v2
       - name: Install dependencies
         run: npm ci --ignore-scripts
-      - name: Setup environment
+      - name: Run the update script
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
           TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-          DUMMY: ${{ secrets.DUMMY }}
-        run: echo $DUMMY
-      - name: Create env file for Dotenv
-        run: |
-          touch .env
-          echo TWITTER_API_KEY=${{ secrets.TWITTER_API_KEY }} >> .env
-          echo TWITTER_API_SECRET=${{ secrets.TWITTER_API_SECRET }} >> .env
-          echo TWITTER_ACCESS_TOKEN=${{ secrets.TWITTER_ACCESS_TOKEN }} >> .env
-          echo TWITTER_ACCESS_TOKEN_SECRET=${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} >> .env
-      - name: Run the update script
         run: npm run update-twitter-banner
       - run: echo "It's done!"
