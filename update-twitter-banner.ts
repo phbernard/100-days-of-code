@@ -4,7 +4,7 @@ dotenv.config();
 import { TwitterClient } from 'twitter-api-client';
 import { domainToUnicode } from 'url';
 import fs from 'fs';
-import axios from 'axios';
+import { createImage } from '@resoc/create-img';
 
 const streamToFile = (inputStream: any, filePath: string) => {
   return new Promise((resolve, reject) => {
@@ -46,17 +46,15 @@ const doId = async() => {
 
   const bannerFileName = 'new-banner.png';
 
-  const params = {
-    day: currentDay,
-    activity: daysStatus.map(status => ({ status: status ? 'completed' : 'missed' }))
-  }
-  const imgResponse = await axios.post(
-    'https://covers.philippebernard.dev/templates/100-days-of-code-twitter-banner/images/1800x600.png',
-    params, {
-      responseType: 'stream'
-    }
+  await createImage(
+    'resoc-twitter-banner/resoc.manifest.json',
+    {
+      day: currentDay.toString(),
+      activity: daysStatus.map(status => ({ status: status ? 'completed' : 'missed' }))
+    },
+    { width: 1800, height: 600 },
+    bannerFileName
   );
-  await streamToFile(imgResponse.data, bannerFileName);
 
   console.log("New banner generated");
 
