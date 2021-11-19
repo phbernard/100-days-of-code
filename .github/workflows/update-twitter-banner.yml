@@ -1,0 +1,16 @@
+name: Update Twitter Banner
+on: [push]
+jobs:
+  Update-Twitter-Banner:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Updating my Twitter banner"
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+      - name: Run the update script
+        run: npm run update-twitter-banner
+      - run: echo "It's done!"
