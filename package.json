@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/phbernard/100-days-of-code#readme",
   "devDependencies": {
+    "@types/node": "^16.11.8",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twitter-api-client": "^1.4.0"
   }
 }
