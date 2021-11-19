@@ -17,14 +17,39 @@ const streamToFile = (inputStream: any, filePath: string) => {
 };
 
 const doId = async() => {
-  if (!process.env.TWITTER_API_KEY || !process.env.TWITTER_API_SECRET) {
+  const twitterApiKey = process.env.TWITTER_API_KEY;
+  const twitterApiSecret = process.env.TWITTER_API_SECRET;
+  if (!twitterApiKey || !twitterApiSecret) {
     console.log("ERROR: Twitter credentials are not configured");
     return;
   }
 
+  let currentDay = -1;
+  const activeDays: number[] = [];
+
+  const log = await fs.promises.readFile('log.md', { encoding: 'utf8' });
+  log.split('\n').forEach(line => {
+    const m = line.match(/### Day (\d+):/);
+    if (m) {
+      const day = parseInt(m[1]);
+      activeDays.push(day);
+      if (day > currentDay) {
+        currentDay = day;
+      }
+    }
+  });
+
+  const daysStatus = new Array(currentDay + 1).fill(false);
+  activeDays.forEach(day => {
+    daysStatus[day] = true;
+  });
+
   const bannerFileName = 'new-banner.png';
 
-  const params = {"day":"3","activity":[{"status":"completed"},{"status":"completed"},{"status":"completed"},{"status":"completed"}]};
+  const params = {
+    day: currentDay,
+    activity: daysStatus.map(status => ({ status: status ? 'completed' : 'missed' }))
+  }
   const imgResponse = await axios.post(
     'https://covers.philippebernard.dev/templates/100-days-of-code-twitter-banner/images/1800x600.png',
     params, {
@@ -36,8 +61,8 @@ const doId = async() => {
   console.log("New banner generated");
 
   const twitterClient = new TwitterClient({
-    apiKey: process.env.TWITTER_API_KEY,
-    apiSecret: process.env.TWITTER_API_SECRET,
+    apiKey: twitterApiKey,
+    apiSecret: twitterApiSecret,
     accessToken: process.env.TWITTER_ACCESS_TOKEN,
     accessTokenSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
   });
