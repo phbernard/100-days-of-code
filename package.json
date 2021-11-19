@@ -26,7 +26,6 @@
     "@resoc/core": "^0.9.0",
     "@resoc/create-img": "^0.9.0",
     "dotenv": "^10.0.0",
-    "puppeteer": "^11.0.0",
     "twitter-api-client": "^1.4.0"
   }
 }
