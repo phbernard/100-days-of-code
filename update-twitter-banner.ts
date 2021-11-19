@@ -74,6 +74,10 @@ const doId = async() => {
   console.log("Twitter banner updated");
 }
 
+console.log("Debug");
+console.log("Dummy: " + process.env.DUMMY);
+console.log("Inline Dummy: " + process.env.INLINE_DUMMY);
+
 (async () => {
   try {
     await doId();

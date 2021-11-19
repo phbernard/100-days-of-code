@@ -17,5 +17,7 @@ jobs:
           TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          DUMMY: ${{ secrets.DUMMY }}
+          INLINE_DUMMY: ThisIsInlineDummy
         run: npm run update-twitter-banner
       - run: echo "It's done!"
