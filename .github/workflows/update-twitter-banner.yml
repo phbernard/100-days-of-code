@@ -3,6 +3,7 @@ on: [push]
 jobs:
   Update-Twitter-Banner:
     runs-on: ubuntu-latest
+    environment: twitter-credentials
     steps:
       - run: echo "Updating my Twitter banner"
       - name: Check out repository code
