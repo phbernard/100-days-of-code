@@ -34,3 +34,13 @@
 **Thoughts:** I went full Pareto here. The code itself was ready in no time, but the GH Action setup has been quite hard.
 
 **Link to work:** This is part of [this repo](https://github.com/phbernard/100-days-of-code)
+
+
+### Day 4: November 20, 2021
+
+**Today's Progress**: Worked on the "Update your Twitter banner" tutorial.
+
+**Thoughts:** I'm very slow at writing *but* I enjoy it!
+
+**Link to work:** That's markdown on Hashnode... Can't share :(
+
