@@ -44,3 +44,11 @@
 
 **Link to work:** That's markdown on Hashnode... Can't share :(
 
+
+### Day 5: November 21, 2021
+
+**Today's Progress**: Completed the tutorial! Need a full review, but looks good.
+
+**Thoughts:** I had to do a lot of screenshots. That was not very enjoyable.
+
+**Link to work:** Still can share... but will tomorrow!
