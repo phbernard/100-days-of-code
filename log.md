@@ -52,3 +52,12 @@
 **Thoughts:** I had to do a lot of screenshots. That was not very enjoyable.
 
 **Link to work:** Still can share... but will tomorrow!
+
+
+### Day 6: November 22, 2021
+
+**Today's Progress**: Review and published the tutorial. Fixed a couple of things in the itdk.
+
+**Thoughts:** I spend most of the day looking at the stats of the article. Not a great day.
+
+**Link to work:** I commited to [Resocio/resoc](https://github.com/Resocio/resoc)
