@@ -61,3 +61,12 @@
 **Thoughts:** I spend most of the day looking at the stats of the article. Not a great day.
 
 **Link to work:** I commited to [Resocio/resoc](https://github.com/Resocio/resoc)
+
+
+### Day 7: November 23, 2021
+
+**Today's Progress**: Play with the Twitter API. No clear goal, just trying it.
+
+**Thoughts:** Steep learning curve! There are a few terms to understand to find one's way in the API and client library.
+
+**Link to work:** [twitter-sandbox](https://github.com/phbernard/twitter-sandbox)
