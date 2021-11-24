@@ -70,3 +70,12 @@
 **Thoughts:** Steep learning curve! There are a few terms to understand to find one's way in the API and client library.
 
 **Link to work:** [twitter-sandbox](https://github.com/phbernard/twitter-sandbox)
+
+
+### Day 8: November 24, 2021
+
+**Today's Progress**: Started Resoc Automated Twitter Profile
+
+**Thoughts:** Very excited with that one!
+
+**Link to work:** https://github.com/Resocio/resoc-automated-twitter-profile
