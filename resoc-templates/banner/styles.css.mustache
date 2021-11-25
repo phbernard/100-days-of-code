@@ -8,27 +8,51 @@
   display: flex;
   flex-direction: column;
   padding: 2vh 3vw 2vh 3vw;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
-#title {
-  flex: 1.62;
-  font-size: 13vh;
-  height: 100%;
-  text-align: right;
-  margin-left: 20vw;
-  letter-spacing: 0.05em;
+main {
+  flex: 1.4;
+  display: flex;
+  flex-direction: row;
+  gap: 20vh;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2vh;
+}
+
+.metric h1 {
+  font-size: 11vh;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.metric-data {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 1vh 3vh 1vh 3vh;
+  border-radius: 1vh;
+  font-weight: bold;
+  font-size: 9vh;
 }
 
 .challenge-progress {
   flex: 0.8;
   display: flex;
   flex-direction: column;
-  margin-left: 30%;
+  width: 70%;
   gap: 2vh;
 }
 
 .caption {
-  font-size: 9vh;
+  font-size: 11vh;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -37,7 +61,7 @@
 .progress {
   background-color: white;
   border-radius: 1vh;
-  height: 7vh;
+  height: 12vh;
   display: flex;
   align-items: center;
   padding-left: 0.2vw;
@@ -49,7 +73,7 @@
   width: 0.8%;
   margin-left: 0.1%;
   margin-right: 0.1%;
-  height: 6vh;
+  height: 11vh;
   border-radius: 1vh;
 }
 

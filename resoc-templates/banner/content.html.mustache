@@ -1,7 +1,28 @@
 <div class="wrapper">
-  <h1 id="title">
-    Working on Resoc while doing the #100DaysOfCode Challenge
-  </h1>
+  <main>
+    <div class="metric">
+      <h1 id="title">
+        Working on Resoc
+      </h1>
+      <span class="metric-data">
+        <span class="bigNum">
+          {{ resocStars }}
+        </span>
+        stars on GH
+      </span>
+    </div>
+    <div class="metric">
+      <h1>
+        Introvert doing his best
+      </h1>
+      <span class="metric-data">
+        <span class="bigNum">
+          {{ followerCount }}
+        </span>
+        followers
+      </span>
+    </div>
+  </main>
   <div class="challenge-progress">
     <div class="caption">
       <span>
@@ -18,3 +39,13 @@
     </div>
   </div>
 </div>
+
+<script>
+window.onload = function() {
+  var formatter = Intl.NumberFormat('en', { notation: 'compact' });
+  var data = document.querySelectorAll(".bigNum");
+  for (var i = 0; i < data.length; i++) {
+    data[i].innerHTML = formatter.format(data[i].innerHTML);
+  }
+};
+</script>
