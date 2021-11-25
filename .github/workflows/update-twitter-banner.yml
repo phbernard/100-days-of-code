@@ -2,7 +2,7 @@ name: Update Banner
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '40 0/2 * * *'
 jobs:
