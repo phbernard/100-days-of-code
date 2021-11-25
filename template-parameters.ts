@@ -1,6 +1,7 @@
 import { ParamValues } from "@resoc/core";
 import { TwitterClient } from 'twitter-api-client';
 import fs from 'fs';
+import axios from 'axios';
 
 export const bannerTemplateParameters = async (twitterClient: TwitterClient): Promise<ParamValues> => {
   // User
@@ -27,11 +28,13 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient): Pr
   });
 
   // GitHub stars
-  // TODO: GET https://api.github.com/repos/resocio/resoc
+  const gitHubResponse = await axios.get('https://api.github.com/repos/resocio/resoc');
+  const resocStars = gitHubResponse.data.stargazers_count;
 
   return {
     followerCount,
     day: currentDay.toString(),
-    activity: daysStatus.map(status => ({ status: status ? 'completed' : 'missed' }))
+    activity: daysStatus.map(status => ({ status: status ? 'completed' : 'missed' })),
+    resocStars
   }
 };
