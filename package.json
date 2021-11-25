@@ -1,30 +1,31 @@
 {
-  "name": "100-days-of-code",
+  "name": "resoc-automated-twitter-profile",
   "version": "1.0.0",
-  "description": "## Contents",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "update-twitter-banner": "ts-node update-twitter-banner.ts",
+    "generate-banner": "ts-node src/generate-banner",
+    "update-banner": "ts-node src/update-banner",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phbernard/100-days-of-code.git"
+    "url": "git+https://github.com/Resocio/resoc-automated-twitter-profile.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Philippe Bernard",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phbernard/100-days-of-code/issues"
+    "url": "https://github.com/Resocio/resoc-automated-twitter-profile/issues"
   },
-  "homepage": "https://github.com/phbernard/100-days-of-code#readme",
+  "homepage": "https://github.com/Resocio/resoc-automated-twitter-profile#readme",
   "devDependencies": {
-    "@types/node": "^16.11.8",
+    "@types/node": "^16.11.10",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "@resoc/core": "^0.9.0",
-    "@resoc/create-img": "^0.9.0",
+    "@resoc/core": "^0.9.1",
+    "@resoc/create-img": "^0.9.1",
     "dotenv": "^10.0.0",
     "twitter-api-client": "^1.4.0"
   }
