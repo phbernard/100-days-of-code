@@ -5,7 +5,7 @@
         Working on Resoc
       </h1>
       <span class="metric-data">
-        <span class="bigNum">
+        <span class="big-num">
           {{ resocStars }}
         </span>
         stars on GH
@@ -16,7 +16,7 @@
         Introvert doing his best
       </h1>
       <span class="metric-data">
-        <span class="bigNum">
+        <span class="big-num">
           {{ followerCount }}
         </span>
         followers
@@ -38,12 +38,17 @@
       {{/activity}}
     </div>
   </div>
+  <div class="update">
+    <span>
+      My banner will be updated on {{ nextGenerationDate }}
+    </span>
+  </div>
 </div>
 
 <script>
 window.onload = function() {
   var formatter = Intl.NumberFormat('en', { notation: 'compact' });
-  var data = document.querySelectorAll(".bigNum");
+  var data = document.querySelectorAll(".big-num");
   for (var i = 0; i < data.length; i++) {
     data[i].innerHTML = formatter.format(data[i].innerHTML);
   }

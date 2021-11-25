@@ -23,6 +23,11 @@
       "demoValue": "42"
     },
     {
+      "name": "nextGenerationDate",
+      "type": "string",
+      "demoValue": "27/10/2021 at 16:24"
+    },
+    {
       "name": "activity",
       "type": "objectList",
       "demoValue": [
