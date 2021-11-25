@@ -79,3 +79,12 @@
 **Thoughts:** Very excited with that one!
 
 **Link to work:** https://github.com/Resocio/resoc-automated-twitter-profile
+
+
+### Day 9: November 25, 2021
+
+**Today's Progress**: Refactored my Twitter banner. It displays GitHub stars and followers.
+
+**Thoughts:** Pleasant and cool!
+
+**Link to work:** https://github.com/phbernard/100-days-of-code
