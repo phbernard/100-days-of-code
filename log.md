@@ -88,3 +88,12 @@
 **Thoughts:** Pleasant and cool!
 
 **Link to work:** https://github.com/phbernard/100-days-of-code
+
+
+### Day 10: November 26, 2021
+
+**Today's Progress**: Worked on Pdf2Jpg
+
+**Thoughts:** Long time no see
+
+**Link to work:** Code is not public...
