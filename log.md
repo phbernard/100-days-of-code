@@ -97,3 +97,12 @@
 **Thoughts:** Long time no see
 
 **Link to work:** Code is not public...
+
+
+### Day 11: November 27, 2021
+
+**Today's Progress**: Pdf2Jpg again
+
+**Thoughts:** (none)
+
+**Link to work:** Code is not public...
