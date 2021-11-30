@@ -115,3 +115,12 @@
 **Thoughts:** (none)
 
 **Link to work:** Code is not public...
+
+
+### Day 14: November 30, 2021
+
+**Today's Progress**: Refactor my Twitter banner
+
+**Thoughts:** I didn't use Resoc for a few days... good to be back again!
+
+**Link to work:** It's in this repository!
