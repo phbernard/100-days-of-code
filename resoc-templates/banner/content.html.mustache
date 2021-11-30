@@ -26,22 +26,16 @@
   <div class="challenge-progress">
     <div class="caption">
       <span>
-        #100DaysOfCode Challenge
-      </span>
-      <span>
-        Day {{ day }}
+        #100DaysOfCode
       </span>
     </div>
     <div class="progress">
       {{#activity}}
-        <div class="daily-activity {{ status }}"></div>
+        <div class="daily-activity-slot">
+          <div class="daily-activity {{ status }}"></div>
+        </div>
       {{/activity}}
     </div>
-  </div>
-  <div class="update">
-    <span>
-      My banner will be updated on {{ nextGenerationDate }}
-    </span>
   </div>
 </div>
 

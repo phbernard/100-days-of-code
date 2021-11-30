@@ -6,19 +6,19 @@
   font-family: 'Raleway';
 
   display: flex;
-  flex-direction: column;
-  padding: 2vh 3vw 2vh 3vw;
-  align-items: flex-end;
+  padding: 4vh 3vw 4vh 3vw;
+  align-items: stretch;
   justify-content: space-between;
-  gap: 12vh;
+  gap: 10vh;
+
+  border-collapse: collapse;
 }
 
 main {
-  flex: 1;
-  width: 100%;
+  flex: 2.45;
   display: flex;
-  justify-content: flex-end;
-  gap: 30vh;
+  flex-direction: column;
+  gap: 10vh;
 }
 
 .metric {
@@ -30,9 +30,9 @@ main {
 }
 
 .metric h1 {
-  font-size: 11vh;
+  font-size: 9vh;
   font-weight: bold;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .metric-data {
@@ -54,7 +54,7 @@ main {
 }
 
 .caption {
-  font-size: 11vh;
+  font-size: 9vh;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -63,20 +63,26 @@ main {
 .progress {
   background-color: white;
   border-radius: 1vh;
-  height: 12vh;
+  height: 100%;
   display: flex;
+  align-items: flex-end;
+  padding: 0.3vw;
+  flex-wrap: wrap;
+}
+
+.daily-activity-slot {
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding-left: 0.2vw;
-  padding-right: 0.2vw;
 }
 
 .daily-activity {
-  display: inline-block;
-  width: 0.8%;
-  margin-left: 0.1%;
-  margin-right: 0.1%;
-  height: 11vh;
-  border-radius: 1vh;
+  border-radius: 4vh;
+  width: 90%;
+  height: 90%;
 }
 
 .completed {
@@ -85,13 +91,4 @@ main {
 
 .missed {
   background-color: #c62828;
-}
-
-.update {
-  flex: 1;
-  flex-direction: column;
-  align-self: flex-end;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 7vh;
 }

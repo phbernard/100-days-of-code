@@ -32,6 +32,10 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient): Pr
   activeDays.forEach(day => {
     daysStatus[day] = true;
   });
+  const activity = daysStatus.map(status => ({ status: status ? 'completed' : 'missed' }));
+  while (activity.length < 100) {
+    activity.push({ status: 'todo' });
+  }
 
   // GitHub stars
   const gitHubResponse = await axios.get('https://api.github.com/repos/resocio/resoc');
@@ -44,7 +48,7 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient): Pr
   return {
     followerCount,
     day: currentDay.toString(),
-    activity: daysStatus.map(status => ({ status: status ? 'completed' : 'missed' })),
+    activity,
     resocStars,
     nextGenerationDate
   }
