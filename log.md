@@ -124,3 +124,12 @@
 **Thoughts:** I didn't use Resoc for a few days... good to be back again!
 
 **Link to work:** It's in this repository!
+
+
+### Day 15: December 1, 2021
+
+**Today's Progress**: RealFaviconGenerator! But just setup the server again.
+
+**Thoughts:** Code without code... mostly adminsys
+
+**Link to work:** Code not published
