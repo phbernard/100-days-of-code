@@ -133,3 +133,12 @@
 **Thoughts:** Code without code... mostly adminsys
 
 **Link to work:** Code not published
+
+
+### Day 16: December 2, 2021
+
+**Today's Progress**: Played with the CodeSanbox new open source package
+
+**Thoughts:** Very cool!
+
+**Link to work:** https://github.com/phbernard/sandpack
