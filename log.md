@@ -142,3 +142,12 @@
 **Thoughts:** Very cool!
 
 **Link to work:** https://github.com/phbernard/sandpack
+
+
+### Day 17: December 3, 2021
+
+**Today's Progress**: CodeSandbox's Sandpack again
+
+**Thoughts:** Still nice :)
+
+**Link to work:** https://github.com/phbernard/sandpack
