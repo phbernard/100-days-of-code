@@ -151,3 +151,21 @@
 **Thoughts:** Still nice :)
 
 **Link to work:** https://github.com/phbernard/sandpack
+
+
+### Day 18: December 4, 2021
+
+**Today's Progress**: CodeSandbox's Sandpack again, again.
+
+**Thoughts:** Hum... dealing with the FileExplorer is not as simple as expected
+
+**Link to work:** https://github.com/phbernard/sandpack
+
+
+### Day 19: December 5, 2021
+
+**Today's Progress**: AWS S3
+
+**Thoughts:** I haven't used that one for a long time
+
+**Link to work:** (unpublished)
