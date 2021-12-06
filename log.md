@@ -169,3 +169,12 @@
 **Thoughts:** I haven't used that one for a long time
 
 **Link to work:** (unpublished)
+
+
+### Day 20: December 6, 2021
+
+**Today's Progress**: Sandpack, NextJS, Netlify
+
+**Thoughts:** About to complete an MVP...
+
+**Link to work:** (unpublished)
