@@ -178,3 +178,12 @@
 **Thoughts:** About to complete an MVP...
 
 **Link to work:** (unpublished)
+
+
+### Day 21: December 7, 2021
+
+**Today's Progress**: Netlify and CSS
+
+**Thoughts:** Did I spend a lot of times in tiny details today? Probably.
+
+**Link to work:** (unpublished)
