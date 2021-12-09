@@ -187,3 +187,22 @@
 **Thoughts:** Did I spend a lot of times in tiny details today? Probably.
 
 **Link to work:** (unpublished)
+
+
+### Day 22: December 8, 2021
+
+**Today's Progress**: PHP today
+
+**Thoughts:** PHP is not my favorite language.
+
+**Link to work:** (unpublished)
+
+
+### Day 23: December 9, 2021
+
+**Today's Progress**: PHP again
+
+**Thoughts:** PHP is still not my favorite language.
+
+**Link to work:** (unpublished)
+
