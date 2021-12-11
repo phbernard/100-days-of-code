@@ -206,3 +206,11 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 24: December 11, 2021
+
+**Today's Progress**: NextJS and Resoc
+
+**Thoughts:** Finally I'm back to Resoc!
+
+**Link to work:** (unpublished)
