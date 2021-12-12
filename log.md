@@ -214,3 +214,12 @@
 **Thoughts:** Finally I'm back to Resoc!
 
 **Link to work:** (unpublished)
+
+
+### Day 25: December 12, 2021
+
+**Today's Progress**: NextJS and AWS S3
+
+**Thoughts:** Coding as usual
+
+**Link to work:** (unpublished)
