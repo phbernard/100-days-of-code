@@ -207,7 +207,7 @@
 **Link to work:** (unpublished)
 
 
-### Day 24: December 11, 2021
+### Day 25: December 11, 2021
 
 **Today's Progress**: NextJS and Resoc
 
@@ -216,7 +216,7 @@
 **Link to work:** (unpublished)
 
 
-### Day 25: December 12, 2021
+### Day 26: December 12, 2021
 
 **Today's Progress**: NextJS and AWS S3
 
