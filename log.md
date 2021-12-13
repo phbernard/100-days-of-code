@@ -223,3 +223,12 @@
 **Thoughts:** Coding as usual
 
 **Link to work:** (unpublished)
+
+
+### Day 27: December 13, 2021
+
+**Today's Progress**: NextJS again
+
+**Thoughts:** MVP on its way...
+
+**Link to work:** (unpublished)
