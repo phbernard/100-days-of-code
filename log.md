@@ -232,3 +232,12 @@
 **Thoughts:** MVP on its way...
 
 **Link to work:** (unpublished)
+
+
+### Day 28: December 14, 2021
+
+**Today's Progress**: Did I mention NextJS yet?
+
+**Thoughts:** MVP on its way... again...
+
+**Link to work:** (unpublished)
