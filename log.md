@@ -241,3 +241,12 @@
 **Thoughts:** MVP on its way... again...
 
 **Link to work:** (unpublished)
+
+
+### Day 29: December 15, 2021
+
+**Today's Progress**: Experiments with OpenGraph and Twitter Cards
+
+**Thoughts:** MVP on its way... again...
+
+**Link to work:** (unpublished)
