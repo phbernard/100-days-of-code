@@ -250,3 +250,12 @@
 **Thoughts:** MVP on its way... again...
 
 **Link to work:** (unpublished)
+
+
+### Day 30: December 16, 2021
+
+**Today's Progress**: CSS and Bootstrap. First shot of Frag.dev ready!
+
+**Thoughts:** Great!!
+
+**Link to work:** (unpublished)
