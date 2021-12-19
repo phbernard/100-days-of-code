@@ -259,3 +259,22 @@
 **Thoughts:** Great!!
 
 **Link to work:** (unpublished)
+
+
+### Day 31: December 17, 2021
+
+**Today's Progress**: Playing with colors
+
+**Thoughts:** -
+
+**Link to work:** (unpublished)
+
+
+### Day 32: December 18, 2021
+
+**Today's Progress**: Playing with colors again
+
+**Thoughts:** -
+
+**Link to work:** (unpublished)
+
