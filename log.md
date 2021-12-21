@@ -278,3 +278,29 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 33: December 19, 2021
+
+**Today's Progress**: Some PHP
+
+**Thoughts:** Not funny :(
+
+**Link to work:** (unpublished)
+
+
+### Day 34: December 20, 2021
+
+**Today's Progress**: Some other PHP
+
+**Thoughts:** Still not funny :(
+
+**Link to work:** (unpublished)
+
+
+### Day 35: December 21, 2021
+
+**Today's Progress**: Back to NextJS!
+
+**Thoughts:** Funny again
+
+**Link to work:** (unpublished)
