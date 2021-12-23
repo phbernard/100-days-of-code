@@ -304,3 +304,12 @@
 **Thoughts:** Funny again
 
 **Link to work:** (unpublished)
+
+
+### Day 36: December 22, 2021
+
+**Today's Progress**: Frag.dev updated!
+
+**Thoughts:** Cool!
+
+**Link to work:** (unpublished)
