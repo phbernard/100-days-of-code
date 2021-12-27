@@ -313,3 +313,30 @@
 **Thoughts:** Cool!
 
 **Link to work:** (unpublished)
+
+
+### Day 37: December 23, 2021
+
+**Today's Progress**: PHP
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+### Day 38: December 24, 2021
+
+**Today's Progress**: PHP
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 41: December 27, 2021
+
+**Today's Progress**: PHP and Bootstrap
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
