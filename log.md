@@ -340,3 +340,12 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 42: December 28, 2021
+
+**Today's Progress**: PHP and Bootstrap
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
