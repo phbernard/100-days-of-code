@@ -349,3 +349,21 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 43: December 29, 2021
+
+**Today's Progress**: CodeMirror
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 44: December 30, 2021
+
+**Today's Progress**: CodeMirror
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
