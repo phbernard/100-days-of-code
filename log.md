@@ -367,3 +367,12 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 45: December 31, 2021
+
+**Today's Progress**: CodeMirror and dynamic themes
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
