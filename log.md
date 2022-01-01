@@ -376,3 +376,12 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 46: January 1, 2022
+
+**Today's Progress**: CodeMirror fine tuning
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
