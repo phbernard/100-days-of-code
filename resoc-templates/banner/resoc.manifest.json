@@ -13,11 +13,6 @@
       "demoValue": "12345"
     },
     {
-      "name": "resocStars",
-      "type": "number",
-      "demoValue": "54321"
-    },
-    {
       "name": "day",
       "type": "number",
       "demoValue": "42"
