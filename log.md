@@ -385,3 +385,38 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 47: January 2, 2022
+
+**Today's Progress**: CodeMirror again?!
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 48: January 3, 2022
+
+**Today's Progress**: PHP today
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 49: January 4, 2022
+
+**Today's Progress**: PHP and jQuery
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 50: January 5, 2022
+
+**Today's Progress**: NextJS, React and... Revue
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
