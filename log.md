@@ -420,3 +420,30 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 51: January 6, 2022
+
+**Today's Progress**: NextJS, React
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 52: January 7, 2022
+
+**Today's Progress**: NextJS alone :)
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 55: January 10, 2022
+
+**Today's Progress**: CSS
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
