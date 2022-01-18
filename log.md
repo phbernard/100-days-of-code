@@ -447,3 +447,76 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 56: January 11, 2022
+
+**Today's Progress**: PHP
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 57: January 12, 2022
+
+**Today's Progress**: PHP again
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 58: January 13, 2022
+
+**Today's Progress**: PHP again and again
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 59: January 14, 2022
+
+**Today's Progress**: I don't code PHP, PHP codes me
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 60: January 15, 2022
+
+**Today's Progress**: PHP? Is that you?
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 61: January 16, 2022
+
+**Today's Progress**: NextJS!
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 62: January 17, 2022
+
+**Today's Progress**: NextJS too
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 63: January 18, 2022
+
+**Today's Progress**: NextJS
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
