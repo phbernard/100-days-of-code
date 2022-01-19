@@ -520,3 +520,12 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 64: January 19, 2022
+
+**Today's Progress**: Tailwind (and NextJS)
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
