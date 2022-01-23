@@ -556,3 +556,11 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 68: January 23, 2022
+
+**Today's Progress**: Netlify, Netlify API and domains
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
