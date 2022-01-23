@@ -529,3 +529,30 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 65: January 20, 2022
+
+**Today's Progress**: Tailwind
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 66: January 21, 2022
+
+**Today's Progress**: Tailwind and NextJS
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 67: January 22, 2022
+
+**Today's Progress**: Netlify
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
