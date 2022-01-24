@@ -564,3 +564,12 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 69: January 24, 2022
+
+**Today's Progress**: Resoc
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
