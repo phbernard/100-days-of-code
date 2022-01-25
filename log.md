@@ -573,3 +573,12 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 70: January 25, 2022
+
+**Today's Progress**: NextJS and AWS Amplify
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
