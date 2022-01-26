@@ -582,3 +582,12 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 71: January 26, 2022
+
+**Today's Progress**: Vercel Platforms template
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
