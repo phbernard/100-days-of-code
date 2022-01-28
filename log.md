@@ -591,3 +591,22 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 72: January 27, 2022
+
+**Today's Progress**: NextJS + Tailwind
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 73: January 28, 2022
+
+**Today's Progress**: NextJS + Tailwind
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
