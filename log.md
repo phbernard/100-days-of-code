@@ -610,3 +610,39 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 74: January 29, 2022
+
+**Today's Progress**: NextJS + Tailwind
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 76: January 31, 2022
+
+**Today's Progress**: PHP
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 77: February 01, 2022
+
+**Today's Progress**: PHP
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 78: February 02, 2022
+
+**Today's Progress**: PHP
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
