@@ -646,3 +646,11 @@
 
 **Link to work:** (unpublished)
 
+
+### Day 79: February 03, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
