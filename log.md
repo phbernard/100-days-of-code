@@ -681,3 +681,21 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 84: February 08, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 85: February 09, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
