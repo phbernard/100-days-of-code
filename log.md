@@ -699,3 +699,48 @@
 **Thoughts:**
 
 **Link to work:** (unpublished)
+
+
+### Day 86: February 10, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 87: February 11, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 88: February 12, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 90: February 14, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
+
+
+### Day 91: February 15, 2022
+
+**Today's Progress**: NextJS and https://demo.vercel.pub/platforms-starter-kit
+
+**Thoughts:**
+
+**Link to work:** (unpublished)
