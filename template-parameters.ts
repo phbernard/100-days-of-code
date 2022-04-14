@@ -15,6 +15,7 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient): Pr
   const followerCount = user.followers_count.toString();
 
   // #100DaysOfCode
+  /*
   let currentDay = -1;
   const activeDays: number[] = [];
   const log = await fs.promises.readFile('log.md', { encoding: 'utf8' });
@@ -36,20 +37,27 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient): Pr
   while (activity.length < 100) {
     activity.push({ status: 'todo' });
   }
+  */
 
   // GitHub stars
+  /*
   const gitHubResponse = await axios.get('https://api.github.com/repos/resocio/resoc');
   const resocStars = gitHubResponse.data.stargazers_count;
+  */
 
   // Next generation
+  /*
   const next = addHours(new Date(), 2);
   const nextGenerationDate = `${next.getUTCDate()}/${next.getUTCMonth() + 1}/${next.getUTCFullYear()} at ${next.getUTCHours()}:${next.getUTCMinutes()} UTC`;
+  */
+
+  // JustMyBio
+  const justMyBio = await axios.get('https://app.justmy.bio/api/service-status');
+  const resocStars = justMyBio.data.stargazers_count;
 
   return {
     followerCount,
-    day: currentDay.toString(),
-    activity,
-    resocStars,
-    nextGenerationDate
+    bioTotal: justMyBio.data.bios.total,
+    bioWithCustomDomain: justMyBio.data.bios.withCustomDomain
   }
 };
