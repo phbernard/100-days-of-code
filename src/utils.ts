@@ -2,6 +2,7 @@ require('dotenv').config();
 
 import { ParamValues } from "@resoc/core";
 import { createImage } from "@resoc/create-img";
+import Stripe from "stripe";
 import { TwitterClient } from "twitter-api-client";
 
 export const BannerFileName = 'twitter-banner.png';
@@ -22,6 +23,13 @@ export const initTwitterClient = (): TwitterClient => {
     accessTokenSecret: twitterAccessTokenSecret
   });
 };
+
+export const initStripeClient = (): Stripe => (
+  new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    // https://github.com/stripe/stripe-node#configuration
+    apiVersion: '2020-08-27',
+  })
+);
 
 export const createBanner = async (parameters: ParamValues, outputFileName: string) => {
   await createImage(

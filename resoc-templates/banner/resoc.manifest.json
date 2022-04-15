@@ -23,6 +23,11 @@
       "demoValue": "1234"
     },
     {
+      "name": "sosRevenue",
+      "type": "number",
+      "demoValue": "4321"
+    },
+    {
       "name": "activity",
       "type": "objectList",
       "demoValue": [
