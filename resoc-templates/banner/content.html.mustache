@@ -28,11 +28,46 @@
       </span>
     </div>
   </main>
+  <div class="gtd-activity">
+    <div class="caption">
+      My last 7 days
+    </div>
+    <div class="progress-metric">
+      <div class="caption">
+        Tasks completion
+      </div>
+      <div class="progress">
+        {{#completionActivity}}
+          <div class="daily-activity {{ status }}"></div>
+        {{/completionActivity}}
+      </div>
+    </div>
+    <div class="progress-metric">
+      <div class="caption">
+        Tasks creation
+      </div>
+      <div class="progress">
+        {{#creationActivity}}
+          <div class="daily-activity {{ status }}"></div>
+        {{/creationActivity}}
+      </div>
+    </div>
+    <div class="metric">
+      <div class="caption">
+        Last weekly review
+      </div>
+      <div class="last-weekly">
+        <span class="metric-data">
+          <span class="ago">{{ lastWeeklyReview }}</span>
+        </span>
+      </div>
+    </div>
+  </div>
   <!--
-  <div class="challenge-progress">
+  <div class="gtd-activity">
     <div class="caption">
       <span>
-        GTD Challenge
+        GTD Activity
       </span>
     </div>
     <div class="under-construction">
@@ -49,12 +84,72 @@
   -->
 </div>
 
+<script src="https://unpkg.com/javascript-time-ago@2.3.13/bundle/javascript-time-ago.js"></script>
 <script>
+TimeAgo.addDefaultLocale({
+  locale: 'en',
+  now: {
+    now: {
+      current: "Now",
+      past: "Just now"
+    }
+  },
+  long: {
+    year: {
+      past: {
+        one: "{0} year ago",
+        other: "{0} years ago"
+      }
+    },
+    month: {
+      past: {
+        one: "{0} month ago",
+        other: "{0} months ago"
+      }
+    },
+    week: {
+      past: {
+        one: "{0} week ago",
+        other: "{0} weeks ago"
+      }
+    },
+    day: {
+      past: {
+        one: "{0} day ago",
+        other: "{0} days ago"
+      }
+    },
+    hour: {
+      past: {
+        one: "{0} hour ago",
+        other: "{0} hours ago"
+      }
+    },
+    minute: {
+      past: {
+        one: "{0} minute ago",
+        other: "{0} minutes ago"
+      }
+    },
+    second: {
+      past: {
+        one: "{0} second ago",
+        other: "{0} seconds ago"
+      }
+    }
+  }
+});
+
 window.onload = function() {
   var formatter = Intl.NumberFormat('en', { notation: 'compact' });
   var data = document.querySelectorAll(".big-num");
   for (var i = 0; i < data.length; i++) {
     data[i].innerHTML = formatter.format(data[i].innerHTML);
+  }
+
+  var data = document.querySelectorAll(".ago");
+  for (var i = 0; i < data.length; i++) {
+    data[i].innerHTML = new TimeAgo('en-US').format(new Date(parseInt(data[i].innerHTML)));
   }
 };
 </script>
