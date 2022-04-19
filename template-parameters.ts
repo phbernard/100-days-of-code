@@ -127,7 +127,7 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient, str
   const completed = Array(7).fill(0);
   let lastReview: Date = new Date('2022-01-01');
 
-  const completedItems = await todoist.completedItems.get({});
+  const completedItems = await todoist.completedItems.get({ limit: 200 });
   completedItems.forEach(item => {
     const d = new Date((item as any).completed_date.substr(0, 10));
     const ago = daysAgo(d);
