@@ -3,11 +3,32 @@ import { TwitterClient } from 'twitter-api-client';
 import fs from 'fs';
 import axios from 'axios';
 import Stripe from "stripe";
+import { initTodoistClient } from "./src/utils";
 
 const addHours = (date: Date, hours: number): Date => {
   const future = new Date();
   future.setTime(date.getTime() + (hours * 60 * 60 * 1000));
   return future;
+}
+
+const status = (i: number) => {
+  if (i === 0) {
+    return 'none';
+  } else if (i < 3) {
+    return 'low';
+  }
+
+  return 'high';
+}
+
+/**
+ * Called with 2022-04-15 on 2022-04-18, daysAgo returns 3
+ */
+const daysAgo = (d: Date): number => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  return Math.round((today.getTime() - d.getTime()) / (1000 * 60 * 60 * 24));
 }
 
 export const bannerTemplateParameters = async (twitterClient: TwitterClient, stripeClient: Stripe): Promise<ParamValues> => {
@@ -100,10 +121,42 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient, str
 
   sosRevenue = Math.round(sosRevenue / 100);
 
+  // Todoist
+  const todoist = initTodoistClient();
+
+  const completed = Array(7).fill(0);
+  let lastReview: Date = new Date('2022-01-01');
+
+  const completedItems = await todoist.completedItems.get({ limit: 200 });
+  completedItems.forEach(item => {
+    const d = new Date((item as any).completed_date.substr(0, 10));
+    const ago = daysAgo(d);
+    if (ago < 7 && ago > 0) {
+      completed[7 - ago]++;
+    }
+    if (item.content === 'Revue hebdomadaire' && (!lastReview || lastReview.getTime() < d.getTime())) {
+      lastReview = d;
+    }
+  });
+
+  const created = Array(7).fill(0);
+  await todoist.sync();
+  const items = await todoist.items.get();
+  items.forEach(item => {
+    const d = new Date((item as any).date_added.substr(0, 10));
+    const ago = daysAgo(d);
+    if (ago < 7 && ago > 0) {
+      created[7 - ago]++;
+    }
+  });
+
   return {
     followerCount,
     bioTotal: justMyBio.data.bios.total,
     bioWithCustomDomain: justMyBio.data.bios.withCustomDomain,
-    sosRevenue: sosRevenue.toString()
+    sosRevenue: sosRevenue.toString(),
+    completionActivity: completed.map(t => ({ status: status(t) })),
+    creationActivity: created.map(t => ({ status: status(t) })),
+    lastWeeklyReview: lastReview.getTime().toString()
   }
 };

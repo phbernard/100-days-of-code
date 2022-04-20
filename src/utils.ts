@@ -4,6 +4,7 @@ import { ParamValues } from "@resoc/core";
 import { createImage } from "@resoc/create-img";
 import Stripe from "stripe";
 import { TwitterClient } from "twitter-api-client";
+import { v8 } from 'todoist'
 
 export const BannerFileName = 'twitter-banner.png';
 
@@ -30,6 +31,10 @@ export const initStripeClient = (): Stripe => (
     apiVersion: '2020-08-27',
   })
 );
+
+export const initTodoistClient = () => (
+  v8(process.env.TODOIST_API_KEY!)
+)
 
 export const createBanner = async (parameters: ParamValues, outputFileName: string) => {
   await createImage(

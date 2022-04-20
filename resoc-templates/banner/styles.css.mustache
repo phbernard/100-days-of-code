@@ -15,7 +15,7 @@
 }
 
 main {
-  flex: 2.45;
+  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,61 +45,69 @@ main {
   font-size: 9vh;
 }
 
-.challenge-progress {
+.gtd-activity {
   flex: 1;
   display: flex;
   flex-direction: column;
-  width: 70%;
   gap: 2vh;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 .caption {
   font-size: 9vh;
   font-weight: bold;
-  display: flex;
-  justify-content: space-between;
+  text-align: right;
 }
 
-.under-construction {
-  height: 100%;
+.progress-metric {
   display: flex;
-  align-items: end;
-  justify-content: center;
-  padding: 1vw;
-  background-color: white;
-  border-radius: 1vh;
-  fill: #252525;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2vh;
+  flex: 1 0 auto;
 }
 
 .progress {
   background-color: white;
-  border-radius: 1vh;
-  height: 100%;
+  border-radius: 2vh;
+  width: 100%;
   display: flex;
-  align-items: flex-end;
-  padding: 0.3vw;
-  flex-wrap: wrap;
-}
-
-.daily-activity-slot {
-  display: inline-block;
-  width: 10%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0.5vh;
+  padding: 0.5vh;
+  flex: 1 0 auto;
 }
 
 .daily-activity {
-  border-radius: 4vh;
   width: 90%;
-  height: 90%;
+  height: 100%;
 }
 
-.completed {
+.daily-activity:first-child {
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
+}
+
+.daily-activity:last-child {
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+}
+
+.none {
+  background-color: #c62828;
+}
+
+.low {
+  background-color: #c67828;
+}
+
+.high {
   background-color: #2e7d32;
 }
 
-.missed {
-  background-color: #c62828;
+.last-weekly {
+  text-align: right;
 }
