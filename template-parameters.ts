@@ -122,31 +122,32 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient, str
   sosRevenue = Math.round(sosRevenue / 100);
 
   // Todoist
+  const ACTIVITY_LOG_SIZE = 7;
   const todoist = initTodoistClient();
 
-  const completed = Array(7).fill(0);
+  const completed = Array(ACTIVITY_LOG_SIZE).fill(0);
   let lastReview: Date = new Date('2022-01-01');
 
   const completedItems = await todoist.completedItems.get({ limit: 200 });
   completedItems.forEach(item => {
     const d = new Date((item as any).completed_date.substr(0, 10));
     const ago = daysAgo(d);
-    if (ago < 7 && ago > 0) {
-      completed[7 - ago]++;
+    if (ago <= ACTIVITY_LOG_SIZE && ago > 0) {
+      completed[ACTIVITY_LOG_SIZE - ago]++;
     }
     if (item.content === 'Revue hebdomadaire' && (!lastReview || lastReview.getTime() < d.getTime())) {
       lastReview = d;
     }
   });
 
-  const created = Array(7).fill(0);
+  const created = Array(ACTIVITY_LOG_SIZE).fill(0);
   await todoist.sync();
   const items = await todoist.items.get();
   items.forEach(item => {
     const d = new Date((item as any).date_added.substr(0, 10));
     const ago = daysAgo(d);
-    if (ago < 7 && ago > 0) {
-      created[7 - ago]++;
+    if (ago <= ACTIVITY_LOG_SIZE && ago > 0) {
+      created[ACTIVITY_LOG_SIZE - ago]++;
     }
   });
 
