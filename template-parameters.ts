@@ -73,11 +73,14 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient, str
   const nextGenerationDate = `${next.getUTCDate()}/${next.getUTCMonth() + 1}/${next.getUTCFullYear()} at ${next.getUTCHours()}:${next.getUTCMinutes()} UTC`;
   */
 
+  /*
   // JustMyBio
   const justMyBio = await axios.get('https://app.justmy.bio/api/service-status');
   const resocStars = justMyBio.data.stargazers_count;
+  */
 
   // SaveOurSocial / Stripe
+  /*
   const gt = Math.round((new Date()).getTime() / 1000) - (60 * 24 * 60 * 60);
 
   let sosRevenue = 0;
@@ -120,6 +123,7 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient, str
   } while (moreRecords);
 
   sosRevenue = Math.round(sosRevenue / 100);
+  */
 
   // Todoist
   const ACTIVITY_LOG_SIZE = 7;
@@ -153,9 +157,9 @@ export const bannerTemplateParameters = async (twitterClient: TwitterClient, str
 
   return {
     followerCount,
-    bioTotal: justMyBio.data.bios.total,
-    bioWithCustomDomain: justMyBio.data.bios.withCustomDomain,
-    sosRevenue: sosRevenue.toString(),
+    //bioTotal: justMyBio.data.bios.total,
+    //bioWithCustomDomain: justMyBio.data.bios.withCustomDomain,
+    //sosRevenue: sosRevenue.toString(),
     completionActivity: completed.map(t => ({ status: status(t) })),
     creationActivity: created.map(t => ({ status: status(t) })),
     lastWeeklyReview: lastReview.getTime().toString()

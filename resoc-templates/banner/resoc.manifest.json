@@ -13,21 +13,6 @@
       "demoValue": "12345"
     },
     {
-      "name": "bioTotal",
-      "type": "number",
-      "demoValue": "5678"
-    },
-    {
-      "name": "bioWithCustomDomain",
-      "type": "number",
-      "demoValue": "1234"
-    },
-    {
-      "name": "sosRevenue",
-      "type": "number",
-      "demoValue": "4321"
-    },
-    {
       "name": "completionActivity",
       "type": "objectList",
       "demoValue": [
