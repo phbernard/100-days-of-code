@@ -11,9 +11,9 @@ jobs:
     environment: twitter-credentials
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
       - name: Install dependencies
         run: npm ci
       - name: Run the update script
